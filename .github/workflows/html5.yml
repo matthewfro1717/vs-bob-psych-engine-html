@@ -42,7 +42,6 @@ jobs:
           haxelib install linc_luajit
           haxelib list
           haxelib run lime build html5
-          
       - uses: actions/upload-artifact@v2
         with:
           name: HTML5 Build
